@@ -1,0 +1,23 @@
+#body
+{
+    padding-top: 300px;
+    padding-bottom: 400px;
+
+}
+
+#btn-start
+{
+    color: white;
+    border: none;
+    padding: 20px,20px;
+    text-align: center;
+    text-decoration: dashed;
+    display: inline-block;
+    font-size: 16px;
+    margin: 12px 8px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: green;
+    height:50px;
+    width:120px;
+}
