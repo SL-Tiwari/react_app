@@ -1,22 +1,17 @@
-import { Button } from "@chatscope/chat-ui-kit-react";
 import React from "react";
-import { Link } from "react-router-dom";
 import "./home.css";
+import rexImage from "../assets/rex.png"; // Adjust the path as necessary
 
 function Home() {
     return (
         <div id="body">
-            <h1> Welcome to the Chat App</h1>
-            <p> Click the button below to start a Chat </p>
-            <Link to="/chat">
-                <Button id="btn-start">Start Chat </Button>
-            </Link>
+            <img src={rexImage} alt="Rex" id="rex-image" />
+            <div id="content">
+                <h1>Welcome to the Chat App</h1>
+                <p>Click the Start Button to start a Chat</p>
+            </div>
         </div>
-
-    )
+    );
 }
 
 export default Home;
-
-
-

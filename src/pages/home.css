@@ -1,23 +1,21 @@
-#body
-{
-    padding-top: 300px;
+#body {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 100px;
+    padding-left: 100px;
+    /* Adjust padding to align content */
     padding-bottom: 400px;
-
+    background-color: lightblue;
 }
 
-#btn-start
-{
-    color: white;
-    border: none;
-    padding: 20px,20px;
-    text-align: center;
-    text-decoration: dashed;
-    display: inline-block;
-    font-size: 16px;
-    margin: 12px 8px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    background-color: green;
-    height:50px;
-    width:120px;
+#rex-image {
+    max-width: 900px;
+    /* Adjust the size as needed */
+    margin-right: 50px;
+    /* Space between the image and content */
+}
+
+#content {
+    padding-left: 200px;
 }
